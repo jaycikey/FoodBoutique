@@ -41,10 +41,24 @@
     </section>
   </section>
 
-  <!-- Filters Section -->
-  <section id="filters">
-      <!-- Форма з пошуком, випадаючими списками для категорій та сортування -->
-  </section>
+    <!-- Фільтри -->
+    <section id="filters">
+        <form id="product-filter-form">
+            <!-- Пошук за ключовим словом -->
+            <input type="text" id="keyword-input" placeholder="Введіть ключове слово">
+
+            <!-- Вибір категорії -->
+            <select id="category-select">
+                <option value="">Show all</option>
+                <!-- Тут будуть вставлені опції з категоріями -->
+            </select>
+
+            <!-- Кнопка пошуку -->
+            <button type="submit">
+                <span>🔍</span> Пошук
+            </button>
+        </form>
+    </section>
 
   <!-- Popular Products Section -->
   <section id="popular-products">
